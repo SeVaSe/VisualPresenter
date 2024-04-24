@@ -42,7 +42,7 @@
                     <StackPanel Orientation="Horizontal"
                                 Height="35"
                                 Margin="0,25,15,40">
-                        
+
                         <TextBlock Text="VisualPresenter"
                                    Foreground="{StaticResource titleColor4}"
                                    FontSize="20"
@@ -55,11 +55,11 @@
                         <fa:IconImage Icon="artstation"
                                       Foreground="{StaticResource color9}" Height="28" Width="26"/>
                     </StackPanel>
-                    
+
                     <!--Кнопки-->
                     <RadioButton Style="{StaticResource menuButton}"
                                  Tag="{StaticResource color1}">
-                        
+
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Хуета тестовая 1" Style="{StaticResource menuButtonText}"/>
                             <fa:IconImage Icon="CameraAlt" Style="{StaticResource menuButtonIcon}"/>
@@ -113,8 +113,8 @@
 
                 </StackPanel>
             </Border>
-            
-            
+
+
             <!--ГЛАВНАЯ ЧАСТЬ-->
             <Border CornerRadius="10,0,0,10"
                     Grid.Column="0">
@@ -135,15 +135,35 @@
                     <StackPanel x:Name="pnlControlBar"
                                 Grid.Row="0"
                                 Orientation="Horizontal"
-                                FlowDirection="RightToLeft"
+                                FlowDirection="LeftToRight"
                                 Background="Transparent"
                                 Margin="5,0,0,0"
                                 MouseLeftButtonDown="pnlControlBar_MouseLeftButtonDown">
+                        
+                        <Button x:Name="btnClose"
+                                Style="{StaticResource ResourceKey=controlButton}"
+                                Tag="{StaticResource color4}"
+                                Click="btnClose_Click" Height="25" Width="35">
+                            <fa:IconImage Icon="Xmark" Style="{StaticResource controlButtonIcon}"/>
+                        </Button>
 
+                        <Button x:Name="btnMaximaze"
+                                Style="{StaticResource ResourceKey=controlButton}"
+                                Tag="{StaticResource color6}"
+                                Click="btnClose_Click" Height="25" Width="35">
+                            <fa:IconImage Icon="Square" Style="{StaticResource controlButtonIcon}"/>
+                        </Button>
+
+                        <Button x:Name="btnMinimize"
+                                Style="{StaticResource ResourceKey=controlButton}"
+                                Tag="{StaticResource color9}"
+                                Click="btnClose_Click" Height="25" Width="35">
+                            <fa:IconImage Icon="WindowMinimize" Style="{StaticResource controlButtonIcon}"/>
+                        </Button>
                     </StackPanel>
                 </Grid>
 
-                
+
             </Border>
 
 
@@ -161,8 +181,8 @@
 
         </Grid>
 
-        
-        
+
+
     </Border>
-    
+
 </Window>
