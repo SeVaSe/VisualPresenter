@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using System.Runtime;
 using System.Runtime.InteropServices;
 using System.Windows.Interop;
+using AppUI.WorkZone.Pages;
 
 namespace AppUI
 {
@@ -25,7 +26,7 @@ namespace AppUI
             InitializeComponent();
             this.MaxHeight = SystemParameters.MaximizedPrimaryScreenHeight;
         }
-
+        // МАШТАБИРУЕМОСТЬ
         [DllImport("user32.dll")]
         public static extern IntPtr SendMessage(IntPtr hWnd, int wMsg, int wParam, int lParam);
         private void pnlControlBar_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
@@ -34,6 +35,8 @@ namespace AppUI
             SendMessage(helper.Handle, 161, 2, 0);
         }
 
+
+        // УПРАВЛЕНИЕ ОКНОМ
         private void btnClose_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
@@ -49,6 +52,18 @@ namespace AppUI
         private void btnMinimize_Click(object sender, RoutedEventArgs e)
         {
             this.WindowState = WindowState.Minimized;
+        }
+
+
+        // РАДИО-КНОПКИ
+        private void radioBtnPresWork_Checked(object sender, RoutedEventArgs e)
+        {
+            mainFrame.Navigate(new PresentWorkPage());
+        }
+
+        private void radioBtnControlPC_Checked(object sender, RoutedEventArgs e)
+        {
+            mainFrame.Navigate(new ControlPCPage());
         }
     }
 }

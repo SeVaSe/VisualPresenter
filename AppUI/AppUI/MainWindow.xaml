@@ -58,26 +58,26 @@
 
                     <!--Кнопки-->
                     <RadioButton Style="{StaticResource menuButton}"
-                                 Tag="{StaticResource color1}">
-
+                                 Tag="{StaticResource color1}"
+                                 Checked="radioBtnControlPC_Checked">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Хуета тестовая 1" Style="{StaticResource menuButtonText}"/>
-                            <fa:IconImage Icon="CameraAlt" Style="{StaticResource menuButtonIcon}"/>
-                        </StackPanel>
-                    </RadioButton>
-
-                    <RadioButton Style="{StaticResource menuButton}"
-             Tag="{StaticResource color2}">
-
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Хуета тестовая 2" Style="{StaticResource menuButtonText}"/>
                             <fa:IconImage Icon="VideoCamera" Style="{StaticResource menuButtonIcon}"/>
                         </StackPanel>
                     </RadioButton>
 
                     <RadioButton Style="{StaticResource menuButton}"
-             Tag="{StaticResource color3}">
+                                 Tag="{StaticResource color2}"
+                                 Checked="radioBtnPresWork_Checked">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Хуета тестовая 2" Style="{StaticResource menuButtonText}"/>
+                            <fa:IconImage Icon="ChalkboardUser" Style="{StaticResource menuButtonIcon}"/>
+                        </StackPanel>
+                    </RadioButton>
 
+
+                    <RadioButton Style="{StaticResource menuButton}"
+             Tag="{StaticResource color3}">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Хуета тестовая 3" Style="{StaticResource menuButtonText}"/>
                             <fa:IconImage Icon="CameraRetro" Style="{StaticResource menuButtonIcon}"/>
@@ -86,7 +86,6 @@
 
                     <RadioButton Style="{StaticResource menuButton}"
              Tag="{StaticResource color4}">
-
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Хуета тестовая 4" Style="{StaticResource menuButtonText}"/>
                             <fa:IconImage Icon="CameraRotate" Style="{StaticResource menuButtonIcon}"/>
@@ -95,7 +94,6 @@
 
                     <RadioButton Style="{StaticResource menuButton}"
              Tag="{StaticResource color10}">
-
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Хуета тестовая 5" Style="{StaticResource menuButtonText}"/>
                             <fa:IconImage Icon="FileCircleQuestion" Style="{StaticResource menuButtonIcon}"/>
@@ -104,13 +102,11 @@
 
                     <RadioButton Style="{StaticResource menuButton}"
              Tag="{StaticResource color6}">
-
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Хуета тестовая 6" Style="{StaticResource menuButtonText}"/>
                             <fa:IconImage Icon="Gear" Style="{StaticResource menuButtonIcon}"/>
                         </StackPanel>
                     </RadioButton>
-
                 </StackPanel>
             </Border>
 
@@ -139,7 +135,7 @@
                                 Background="Transparent"
                                 Margin="5,0,0,0"
                                 MouseLeftButtonDown="pnlControlBar_MouseLeftButtonDown">
-                        
+
                         <Button x:Name="btnClose"
                                 Style="{StaticResource ResourceKey=controlButton}"
                                 Tag="{StaticResource color4}"
@@ -175,16 +171,46 @@
                                     VerticalAlignment="Center"
                                     FlowDirection="RightToLeft" Grid.ColumnSpan="2"
                                     >
-                            
+
                         </StackPanel>
 
-                       
+
 
                     </Grid>
-                    <!--Content section / Child views-->
-                    <ContentControl Content="{Binding CurrentChildView}"
-                                    Grid.Row="2"
-                                    Margin="25"/>
+
+                    <Border Grid.Row="2"
+                            Margin="30"
+                            CornerRadius="20">
+
+                        <Border.Background>
+                            <LinearGradientBrush StartPoint="1,0.7" EndPoint="0,0">
+                                <GradientStop Color="{StaticResource secondaryBackColor1}" Offset="0"/>
+                                <GradientStop Color="{StaticResource secondaryBackColor1}" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Border.Background>
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="10*"/>
+                                <ColumnDefinition Width="956*"/>
+                                <ColumnDefinition Width="10*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="10*"/>
+                                <RowDefinition Height="547*"/>
+                                <RowDefinition Height="10*"/>
+                            </Grid.RowDefinitions>
+
+                            <Frame Name="mainFrame" Margin="10,10,10,10" 
+                                   Grid.ColumnSpan="3" 
+                                   Grid.RowSpan="3"
+                                   NavigationUIVisibility="Hidden"/>
+
+                        </Grid>
+
+
+                    </Border>
+
                 </Grid>
 
 
