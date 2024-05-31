@@ -61,7 +61,7 @@
                                  Tag="{StaticResource color1}"
                                  Checked="radioBtnControlPC_Checked">
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Хуета тестовая 1" Style="{StaticResource menuButtonText}"/>
+                            <TextBlock Text=" тестовая 1" Style="{StaticResource menuButtonText}"/>
                             <fa:IconImage Icon="VideoCamera" Style="{StaticResource menuButtonIcon}"/>
                         </StackPanel>
                     </RadioButton>
@@ -70,7 +70,7 @@
                                  Tag="{StaticResource color2}"
                                  Checked="radioBtnPresWork_Checked">
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Хуета тестовая 2" Style="{StaticResource menuButtonText}"/>
+                            <TextBlock Text=" тестовая 2" Style="{StaticResource menuButtonText}"/>
                             <fa:IconImage Icon="ChalkboardUser" Style="{StaticResource menuButtonIcon}"/>
                         </StackPanel>
                     </RadioButton>
@@ -79,7 +79,7 @@
                     <RadioButton Style="{StaticResource menuButton}"
              Tag="{StaticResource color3}">
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Хуета тестовая 3" Style="{StaticResource menuButtonText}"/>
+                            <TextBlock Text=" тестовая 3" Style="{StaticResource menuButtonText}"/>
                             <fa:IconImage Icon="CameraRetro" Style="{StaticResource menuButtonIcon}"/>
                         </StackPanel>
                     </RadioButton>
@@ -87,7 +87,7 @@
                     <RadioButton Style="{StaticResource menuButton}"
              Tag="{StaticResource color4}">
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Хуета тестовая 4" Style="{StaticResource menuButtonText}"/>
+                            <TextBlock Text=" тестовая 4" Style="{StaticResource menuButtonText}"/>
                             <fa:IconImage Icon="CameraRotate" Style="{StaticResource menuButtonIcon}"/>
                         </StackPanel>
                     </RadioButton>
@@ -95,7 +95,7 @@
                     <RadioButton Style="{StaticResource menuButton}"
              Tag="{StaticResource color10}">
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Хуета тестовая 5" Style="{StaticResource menuButtonText}"/>
+                            <TextBlock Text=" тестовая 5" Style="{StaticResource menuButtonText}"/>
                             <fa:IconImage Icon="FileCircleQuestion" Style="{StaticResource menuButtonIcon}"/>
                         </StackPanel>
                     </RadioButton>
@@ -103,7 +103,7 @@
                     <RadioButton Style="{StaticResource menuButton}"
              Tag="{StaticResource color6}">
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Хуета тестовая 6" Style="{StaticResource menuButtonText}"/>
+                            <TextBlock Text=" тестовая 6" Style="{StaticResource menuButtonText}"/>
                             <fa:IconImage Icon="Gear" Style="{StaticResource menuButtonIcon}"/>
                         </StackPanel>
                     </RadioButton>

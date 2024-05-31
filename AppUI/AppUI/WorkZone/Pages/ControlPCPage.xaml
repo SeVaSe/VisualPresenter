@@ -9,6 +9,6 @@
       Title="ControlPCPage">
 
     <Grid>
-        
+        <Image Name="videoImage" Stretch="Fill" />
     </Grid>
 </Page>

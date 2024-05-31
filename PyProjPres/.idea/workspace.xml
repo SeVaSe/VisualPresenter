@@ -1,9 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9d9ace07-f26f-409a-a01e-09d147ab8e44" name="Changes" comment="M003: подготовка файлов к переносу кода">
-      <change beforePath="$PROJECT_DIR$/../AppUI/.vs/AppUI/FileContentIndex/9eb6f63f-ba0c-40fa-953a-d56e8b77870e.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/.vs/AppUI/FileContentIndex/1ddc23f7-2a53-4153-ae71-47ccb79b6c9e.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/.vs/AppUI/FileContentIndex/38ca5974-655a-42fc-ac3e-e12f9211ec88.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/.vs/AppUI/FileContentIndex/8317467d-5ac3-4584-9d3b-85f1f61b7817.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/.vs/AppUI/FileContentIndex/938bf7a8-897b-4522-b816-dbb56f55fa68.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/.vs/AppUI/FileContentIndex/9dd70532-fbe7-4f1f-a23a-2ef11dd93d05.vsidx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppUI/.vs/AppUI/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/.vs/AppUI/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/AppUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/AppUI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/WorkZone/Pages/ControlPCPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/WorkZone/Pages/ControlPCPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/WorkZone/Pages/ControlPCPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/WorkZone/Pages/ControlPCPage.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/bin/Debug/AppUI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/bin/Debug/AppUI.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/bin/Debug/AppUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/bin/Debug/AppUI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI.g.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI_MarkupCompile.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI_MarkupCompile.i.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI_MarkupCompile.i.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI_MarkupCompile.i.lref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI_MarkupCompile.lref" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/AppUI_MarkupCompile.lref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/WorkZone/Pages/ControlPCPage.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/WorkZone/Pages/ControlPCPage.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/WorkZone/Pages/ControlPCPage.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/obj/Debug/WorkZone/Pages/ControlPCPage.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppUI/AppUI/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/../AppUI/AppUI/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PyProjPres.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PyProjPres.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,14 +58,115 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/PYTHON_/PROJECT_PYTHON_/otherPY/GS_Vet_Clinic&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/VISUAL_STUDIO_/Vs_Project/C#/OTHER_WORK/VisualPresenter/PyProjPres/ControlPres/carts",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\VISUAL_STUDIO_\Vs_Project\C#\OTHER_WORK\VisualPresenter\PyProjPres\ControlPres\carts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\VISUAL_STUDIO_\Vs_Project\C#\OTHER_WORK\VisualPresenter\PyProjPres\AiMouse" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.AImouse_cd (1)">
+    <configuration name="AImouse_cd (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyProjPres" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AiMouse" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AiMouse/AImouse_cd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AImouse_cd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyProjPres" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AiMouse" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\VISUAL_STUDIO_\Vs_Project\C#\OTHER_WORK\VisualPresenter\PyProjPres\AiMouse\AImouse_cd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pres" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyProjPres" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ControlPres" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ControlPres/pres.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyProjPres" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\VISUAL_STUDIO_\Vs_Project\C#\OTHER_WORK\VisualPresenter\PyProjPres\start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.AImouse_cd (1)" />
+        <item itemvalue="Python.pres" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
