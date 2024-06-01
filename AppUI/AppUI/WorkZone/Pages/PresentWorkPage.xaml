@@ -9,18 +9,7 @@
       Title="PresentWorkPage">
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <!-- Первая строка автоматически подстроится под ComboBox -->
-            <RowDefinition Height="*"/>
-            <!-- Оставшееся пространство будет занимать элемент Image -->
-        </Grid.RowDefinitions>
-
-        <!-- ComboBox в первой строке -->
-        <ComboBox Name="ComboBoxWebcams" SelectionChanged="ComboBoxWebcams_SelectionChanged" Margin="0"/>
-
-        <!-- Image во второй строке, займет всю оставшуюся область -->
-        <Image Name="ImageWebcamFrame" Grid.Row="1" Stretch="Fill"/>
+        
     </Grid>
 
 </Page>

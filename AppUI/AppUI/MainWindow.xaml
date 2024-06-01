@@ -61,7 +61,7 @@
                                  Tag="{StaticResource color1}"
                                  Checked="radioBtnControlPC_Checked">
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text=" тестовая 1" Style="{StaticResource menuButtonText}"/>
+                            <TextBlock Text="Управление камерой" Style="{StaticResource menuButtonText}"/>
                             <fa:IconImage Icon="VideoCamera" Style="{StaticResource menuButtonIcon}"/>
                         </StackPanel>
                     </RadioButton>
@@ -70,7 +70,7 @@
                                  Tag="{StaticResource color2}"
                                  Checked="radioBtnPresWork_Checked">
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text=" тестовая 2" Style="{StaticResource menuButtonText}"/>
+                            <TextBlock Text="Контроль презентацией" Style="{StaticResource menuButtonText}"/>
                             <fa:IconImage Icon="ChalkboardUser" Style="{StaticResource menuButtonIcon}"/>
                         </StackPanel>
                     </RadioButton>
@@ -85,9 +85,10 @@
                     </RadioButton>
 
                     <RadioButton Style="{StaticResource menuButton}"
-             Tag="{StaticResource color4}">
+                                     Tag="{StaticResource color4}"
+                                     Checked="radioBtnProverkaCamers_Checked">
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text=" тестовая 4" Style="{StaticResource menuButtonText}"/>
+                            <TextBlock Text="Проверка камер" Style="{StaticResource menuButtonText}"/>
                             <fa:IconImage Icon="CameraRotate" Style="{StaticResource menuButtonIcon}"/>
                         </StackPanel>
                     </RadioButton>
@@ -95,7 +96,7 @@
                     <RadioButton Style="{StaticResource menuButton}"
              Tag="{StaticResource color10}">
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text=" тестовая 5" Style="{StaticResource menuButtonText}"/>
+                            <TextBlock Text="Документация" Style="{StaticResource menuButtonText}"/>
                             <fa:IconImage Icon="FileCircleQuestion" Style="{StaticResource menuButtonIcon}"/>
                         </StackPanel>
                     </RadioButton>
@@ -103,7 +104,7 @@
                     <RadioButton Style="{StaticResource menuButton}"
              Tag="{StaticResource color6}">
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text=" тестовая 6" Style="{StaticResource menuButtonText}"/>
+                            <TextBlock Text="Настройки" Style="{StaticResource menuButtonText}"/>
                             <fa:IconImage Icon="Gear" Style="{StaticResource menuButtonIcon}"/>
                         </StackPanel>
                     </RadioButton>

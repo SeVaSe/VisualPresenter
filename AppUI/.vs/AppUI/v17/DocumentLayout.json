@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\VISUAL_STUDIO_\\Vs_Project\\C#\\OTHER_WORK\\VisualPresenter\\AppUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE61EC7-18DA-4F1D-8769-AE1699A465E2}|AppUI\\AppUI.csproj|c:\\visual_studio_\\vs_project\\c#\\other_work\\visualpresenter\\appui\\appui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE61EC7-18DA-4F1D-8769-AE1699A465E2}|AppUI\\AppUI.csproj|solutionrelative:appui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE61EC7-18DA-4F1D-8769-AE1699A465E2}|AppUI\\AppUI.csproj|c:\\visual_studio_\\vs_project\\c#\\other_work\\visualpresenter\\appui\\appui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CFE61EC7-18DA-4F1D-8769-AE1699A465E2}|AppUI\\AppUI.csproj|solutionrelative:appui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE61EC7-18DA-4F1D-8769-AE1699A465E2}|AppUI\\AppUI.csproj|c:\\visual_studio_\\vs_project\\c#\\other_work\\visualpresenter\\appui\\appui\\workzone\\pages\\proverkacamerspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE61EC7-18DA-4F1D-8769-AE1699A465E2}|AppUI\\AppUI.csproj|solutionrelative:appui\\workzone\\pages\\proverkacamerspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE61EC7-18DA-4F1D-8769-AE1699A465E2}|AppUI\\AppUI.csproj|c:\\visual_studio_\\vs_project\\c#\\other_work\\visualpresenter\\appui\\appui\\workzone\\pages\\presentworkpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFE61EC7-18DA-4F1D-8769-AE1699A465E2}|AppUI\\AppUI.csproj|solutionrelative:appui\\workzone\\pages\\presentworkpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\VISUAL_STUDIO_\\Vs_Project\\C#\\OTHER_WORK\\VisualPresenter\\AppUI\\AppUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AppUI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\VISUAL_STUDIO_\\Vs_Project\\C#\\OTHER_WORK\\VisualPresenter\\AppUI\\AppUI\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "AppUI\\MainWindow.xaml.cs*",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAwEUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T04:03:39.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\VISUAL_STUDIO_\\Vs_Project\\C#\\OTHER_WORK\\VisualPresenter\\AppUI\\AppUI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "AppUI\\MainWindow.xaml",
+              "ToolTip": "C:\\VISUAL_STUDIO_\\Vs_Project\\C#\\OTHER_WORK\\VisualPresenter\\AppUI\\AppUI\\MainWindow.xaml",
+              "RelativeToolTip": "AppUI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-01T04:03:37.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProverkaCamersPage.xaml.cs",
+              "DocumentMoniker": "C:\\VISUAL_STUDIO_\\Vs_Project\\C#\\OTHER_WORK\\VisualPresenter\\AppUI\\AppUI\\WorkZone\\Pages\\ProverkaCamersPage.xaml.cs",
+              "RelativeDocumentMoniker": "AppUI\\WorkZone\\Pages\\ProverkaCamersPage.xaml.cs",
+              "ToolTip": "C:\\VISUAL_STUDIO_\\Vs_Project\\C#\\OTHER_WORK\\VisualPresenter\\AppUI\\AppUI\\WorkZone\\Pages\\ProverkaCamersPage.xaml.cs",
+              "RelativeToolTip": "AppUI\\WorkZone\\Pages\\ProverkaCamersPage.xaml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwBYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T04:01:59.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PresentWorkPage.xaml.cs",
+              "DocumentMoniker": "C:\\VISUAL_STUDIO_\\Vs_Project\\C#\\OTHER_WORK\\VisualPresenter\\AppUI\\AppUI\\WorkZone\\Pages\\PresentWorkPage.xaml.cs",
+              "RelativeDocumentMoniker": "AppUI\\WorkZone\\Pages\\PresentWorkPage.xaml.cs",
+              "ToolTip": "C:\\VISUAL_STUDIO_\\Vs_Project\\C#\\OTHER_WORK\\VisualPresenter\\AppUI\\AppUI\\WorkZone\\Pages\\PresentWorkPage.xaml.cs",
+              "RelativeToolTip": "AppUI\\WorkZone\\Pages\\PresentWorkPage.xaml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAuwCMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T04:01:37.316Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -194,6 +194,9 @@
     <Compile Include="WorkZone\Pages\PresentWorkPage.xaml.cs">
       <DependentUpon>PresentWorkPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="WorkZone\Pages\ProverkaCamersPage.xaml.cs">
+      <DependentUpon>ProverkaCamersPage.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -219,6 +222,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="WorkZone\Pages\PresentWorkPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WorkZone\Pages\ProverkaCamersPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -1,0 +1,25 @@
+﻿<Page x:Class="AppUI.WorkZone.Pages.ProverkaCamersPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AppUI.WorkZone.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1000"
+      Title="ProverkaCamersPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Первая строка автоматически подстроится под ComboBox -->
+            <RowDefinition Height="*"/>
+            <!-- Оставшееся пространство будет занимать элемент Image -->
+        </Grid.RowDefinitions>
+
+        <!-- ComboBox в первой строке -->
+        <ComboBox Name="ComboBoxWebcams" SelectionChanged="ComboBoxWebcams_SelectionChanged" Margin="0"/>
+
+        <!-- Image во второй строке, займет всю оставшуюся область -->
+        <Image Name="ImageWebcamFrame" Grid.Row="1" Stretch="Fill"/>
+    </Grid>
+</Page>

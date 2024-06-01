@@ -65,5 +65,9 @@ namespace AppUI
         {
             mainFrame.Navigate(new ControlPCPage());
         }
+        private void radioBtnProverkaCamers_Checked(object sender, RoutedEventArgs e)
+        {
+            mainFrame.Navigate(new ProverkaCamersPage());
+        }
     }
 }
