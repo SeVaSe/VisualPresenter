@@ -11,6 +11,8 @@ import keyboard
 import math
 import mediapipe as mp
 import pyautogui as pag
+import tkinter as tk
+from tkinter import messagebox
 
 
 class HandDetector:
@@ -187,12 +189,54 @@ def save_frame(img):
     sys.stdout.buffer.write(frame_bytes)
     sys.stdout.flush()
 
-def run_cursor():
+def get_available_cameras():
+    available_cameras = []
+    for i in range(10):  # Usually, up to 10 cameras are reasonable to check
+        cap = cv2.VideoCapture(i)
+        if cap.isOpened():
+            available_cameras.append(i)
+            cap.release()
+    return available_cameras
+
+def select_camera(index_var, root):
+    index = int(index_var.get())
+    root.destroy()
+    run_cursor(index)
+
+def show_camera_selection_window():
+    available_cameras = get_available_cameras()
+    if not available_cameras:
+        messagebox.showerror("Ошибка", "Нет доступных камер")
+        return
+
+    root = tk.Tk()
+    root.title("Выберите нужную какмеру")
+
+    tk.Label(root, text="Выберите камеру:").pack(pady=10)
+
+    index_var = tk.StringVar(value=available_cameras[0])
+    for cam in available_cameras:
+        tk.Radiobutton(root, text=f"Камера {cam}", variable=index_var, value=cam).pack(anchor=tk.W)
+
+    tk.Button(root, text="Выбрать", command=lambda: select_camera(index_var, root)).pack(pady=10)
+
+
+def run_cursor(index):
     try:
-        cam = cv2.VideoCapture(0)
+        cam = cv2.VideoCapture(index)
+        if not cam.isOpened():
+            raise ValueError(f"Не могу открыть камеру {index}")
+
+        root = tk.Tk()
+        root.title(f"Камера {index}")
+
+        label = tk.Label(root)
+        label.pack()
+
         wCam, hCam = 640, 480
         cam.set(3, wCam)
         cam.set(4, hCam)
+
 
         pTime = 0
 
@@ -323,13 +367,8 @@ def run_cursor():
                 if finup[0] == 1 and finup[1] == 1 and finup[2] == 1 and finup[3] == 1 and finup[4] == 1:
                     break
 
-            # cv2.imshow("Img", img)
-            # cv2.waitKey(1)
-
             save_frame(img)
-            # Сохраняем текущий кадр в файл
             time.sleep(0.03)
-        cam.release()
 
     except KeyboardInterrupt:
         print("Работа завершена")
@@ -338,6 +377,5 @@ def run_cursor():
         cv2.destroyAllWindows()
 
 
-
 if __name__ == "__main__":
-    run_cursor()
+    show_camera_selection_window()
